@@ -1,10 +1,10 @@
 $(document).ready(function(){
 
 	var randomNumber = 0;
-	var redGemNmbr = 0;
-	var greenGemNmbr = 0;
-	var yellowGemNmbr = 0;
-	var blueGemNmbr = 0;
+	var redGemNum = 0;
+	var greenGemNum = 0;
+	var yellowGemNum = 0;
+	var blueGemNum = 0;
 
     // Generates the Random Number between 19 and 120 and pushes it to the page
 	function randomNumberGenerator() {
@@ -16,20 +16,20 @@ $(document).ready(function(){
    	//Generates random numbers for each gem
    	function randomGemValuesGenerator() {
 		//Red Gem
-		redGemNmbr = Math.floor(Math.random() * 12) + 1;
-		console.log("The Red Gem's value is: " + redGemNmbr);
+		redGemNum = Math.floor(Math.random() * 12) + 1;
+		console.log("The Red Gem's value is: " + redGemNum);
 
    		//Green Gem
-		greenGemNmbr = Math.floor(Math.random() * 12) + 1;
-		console.log("The Green Gem's value is: " + greenGemNmbr);
+		greenGemNum = Math.floor(Math.random() * 12) + 1;
+		console.log("The Green Gem's value is: " + greenGemNum);
 
 		//Yellow Gem
-		yellowGemNmbr = Math.floor(Math.random() * 12) + 1;
-		console.log("The Yellow Gem's value is: " + yellowGemNmbr);
+		yellowGemNum = Math.floor(Math.random() * 12) + 1;
+		console.log("The Yellow Gem's value is: " + yellowGemNum);
 
 		//Blue Gem
-		blueGemNmbr = Math.floor(Math.random() * 12) + 1;
-		console.log("The Blue Gem's value is: " + blueGemNmbr);
+		blueGemNum = Math.floor(Math.random() * 12) + 1;
+		console.log("The Blue Gem's value is: " + blueGemNum);
    	}
 	
 	//Call above functions to start first game
@@ -47,7 +47,7 @@ $(document).ready(function(){
     
    		//Red Gem
 		$("#redGem").on("click", function() {
-			yourScoreIs = yourScoreIs + redGemNmbr;
+			yourScoreIs = yourScoreIs + redGemNum;
 			console.log(yourScoreIs);
 			$("#yourScore").html(yourScoreIs);
 
@@ -72,7 +72,7 @@ $(document).ready(function(){
 
 		//Green Gem
 		$("#greenGem").on("click", function() {
-			yourScoreIs = yourScoreIs + greenGemNmbr;
+			yourScoreIs = yourScoreIs + greenGemNum;
 			console.log(yourScoreIs);
 			$("#yourScore").html(yourScoreIs);
 
@@ -98,7 +98,7 @@ $(document).ready(function(){
 		
 		//Yellow Gem
 		$("#yellowGem").on("click", function() {
-			yourScoreIs = yourScoreIs + yellowGemNmbr;
+			yourScoreIs = yourScoreIs + yellowGemNum;
 			console.log(yourScoreIs);
 			$("#yourScore").html(yourScoreIs);
 
@@ -123,7 +123,7 @@ $(document).ready(function(){
 
 		//Blue Gem
 		$("#blueGem").on("click", function() {
-			yourScoreIs = yourScoreIs + blueGemNmbr;
+			yourScoreIs = yourScoreIs + blueGemNum;
 			console.log(yourScoreIs);
 			$("#yourScore").html(yourScoreIs);
 
