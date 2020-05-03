@@ -1,0 +1,131 @@
+<!-- Week 04 Homework - jQuery Assignment - Crystals Collector -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="assets/javascript/game.js"></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Andika&family=Staatliches&display=swap" rel="stylesheet">
+
+	<title>Crystals Collector Game</title>
+	
+</head>
+<body>
+	
+<!-- Header & Title -->
+<div class="jumbotron" id="heroImage">
+	<div class="container">
+		<h1>Crystal Collectors</h1>
+		<p>Click on the crystals and try to match the Random Number with your score to that number.  If you go over the Random Number, you lose.</p>
+	</div>
+</div>
+
+<p></p>
+
+<!-- Container for game -->
+<div class="container rounded-pill" style="background-color: goldenrod;" id="container2">
+
+	<div class="row">
+
+		<!-- Random Number Column-->
+		<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 rounded-pill" id="rndmNumCol">
+			<h2>Random Number</h2>
+			<p id="randomNumberId">###</p>
+		</div>
+
+		<!-- Crystal Buttons-->
+		<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" id="buttnCol">
+			<div class="row rounded-pill">
+
+				<div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+					<img src="assets/images/red.png" alt="Red Gem" id="redGem" class="button">
+				</div>
+
+				<div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+					<img src="assets/images/green.png" alt="Green Gem" id="greenGem" class="button">
+				</div>
+
+				<div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+					<img src="assets/images/yellow.png" alt="Yellow Gem" id="yellowGem" class="button">
+				</div>
+
+				<div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+					<img src="assets/images/blue.png" alt="Blue Gem" id="blueGem" class="button">
+				</div>
+
+			</div>
+		</div>
+
+		<!-- Score Column-->
+		<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 rounded-pill" id="scoreCol">
+			<h2>Total Score</h2>
+			<p id="yourScore">0</p>
+		</div>
+
+	</div>
+
+
+	<!-- WIN & LOSE Message -->
+	<div class="row">
+		<div class="col-md-12">
+			<h3 id="message"></h3>
+		</div>
+	</div>
+
+
+	<!-- Stores Wins & Losses -->
+	<div class="row" id="gameStats">
+
+		<!-- WINS -->
+        <div class="col-md-1">
+			<h2></h2>
+        </div>
+
+        
+        <div class="col-md-3"  id="score">
+			<h2 id="wins">Wins: 0</h2>
+		</div>
+
+        <div class="col-md-4">
+			<h2></h2>
+        </div>
+        
+		<!-- LOSSES -->
+		<div class="col-md-3"  id="score">
+			<h2 id="losses">Losses: 0</h2>
+		</div>
+
+        <div class="col-md-1">
+			<h2></h2>
+        </div>
+
+	</div>
+
+	<!-- Reset Game -->
+	<div class="row">
+
+		<!-- RESET -->
+		<div class="col-md-12" id="resetCol">
+			<button type="button" class="btn btn-default btn-lg" id="reset">NEW GAME</button>
+		</div>
+
+	</div>
+
+    <div class="row">
+		<div class="col-md-12">
+			<h3></h3>
+		</div>
+    </div>
+    
+</div>
+
+</body>
+</html>

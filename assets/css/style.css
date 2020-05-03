@@ -1,0 +1,156 @@
+body {
+    color:                      #ffffff;
+    background-color:           black;
+    background-image:           url("../images/stained_glass.jpg");
+    background-repeat:          repeat;
+    background-size:            cover;
+    font-family:                'Andika', sans-serif;
+	font-weight:                500;
+}
+
+.jumbotron {
+    background-image:           url("../images/gold.jpg");
+    background-size:            contain;
+    margin-bottom:              40px;
+    height:                     200px;
+    width:                      91%;
+    padding-bottom:             5px;
+    background-position:        center;
+    align-content:              center;
+    margin:                     auto;
+    border-radius:              45px;
+}
+
+.jumbotron h1 {
+    font-family:                'Staatliches', cursive;
+    font-size:                  84px;
+    color:                      darkred;
+    position:                   relative;
+    top:                        -35px;
+    text-align:                 center;  
+    filter:                     drop-shadow(3px 3px 12px goldenrod);
+    -webkit-text-stroke:        0.5px orange;
+}
+
+.jumbotron p {
+	font-family:                'Andika', sans-serif;
+	font-weight:                250;
+    font-size:                  20px;
+    color:                      darkorange;
+    -webkit-text-stroke:        0.5px orange;
+    position:                   relative;
+    top:                        -48px;
+    width:                      70%;
+    margin:                     auto;
+    text-align:                 center;
+}
+
+#rndmNumCol, #scoreCol, #buttnCol {
+	height:                     150px;
+	margin:                     auto;
+	text-align:                 center;
+	line-height:                150px;
+}
+
+.col-md-3 h2 {
+    font-family:                'Andika', sans-serif;
+	font-weight:                600;
+	font-size:                  26px;
+    color:                      darkred;
+}
+
+.col-md-3 p {
+	font-family:                'Andika', sans-serif;
+	font-weight:                800;
+	font-size:                  50px;
+	letter-spacing:             3px;
+	line-height:                140%;
+	color:                      darkred;
+}
+
+#buttnCol {
+	padding-right:              20px;
+	padding-left:               2px;
+}
+
+#rndmNumCol, #scoreCol {
+    background-color:           darkgoldenrod;
+}
+
+.rounded-pill   {
+    border-radius:              45px;
+}
+
+.button {
+    cursor:                     pointer;
+    outline:                    none;
+    border:                     none;
+    border-radius:              28px;
+    box-shadow:                 0 2px darkgoldenrod;
+  }
+  
+  .button:active {
+    box-shadow:                 0 1px darkgoldenrod);
+    transform:                  translateY(4px);
+  }
+
+#score {
+    background-color:           darkgoldenrod;
+    border-radius:              45px;
+    font-family:                'Andika', sans-serif;
+	font-weight:                600;
+	font-size:                  30px;
+    color:                      darkred;
+    text-align:                 center;
+    padding-bottom:             11px;
+}
+
+#message {
+    font-family:                'Andika', sans-serif;
+	font-weight:                900;
+	font-size:                  50px;
+	text-align:                 center;
+    margin-top:                 40px;
+    height:                     80px;
+	color:                      darkred;
+}
+
+#gameStats {
+	color:                      #323232;
+	height:                     75px;
+    margin-top:                 30px;
+}
+
+#resetCol {
+	text-align:                 center;
+	margin-top:                 40px;
+}
+
+#reset {
+	background-color:           goldenrod;
+    border-color:               darkgoldenrod;
+    border-width:               6px;
+    border-radius:              45px;
+    color:                      darkred;
+    font-family:                'Andika', sans-serif;
+	font-weight:                900;
+	font-size:                  32px;
+    margin:                     auto;
+    padding-right:              30px;
+	padding-left:               30px;
+	letter-spacing:             1px;
+}
+
+#reset:hover {
+	background-color:           darkgoldenrod;
+    border-color:               darkred;
+}
+
+
+
+
+
+
+
+
+
